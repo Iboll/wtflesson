@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
-prof = ['пилот', 'биолог', 'инженер', 'психолог', 'священник']
+prof = ['пилот', 'биолог', 'инженер', 'психолог', 'Священник']
 num = 1
 
 
